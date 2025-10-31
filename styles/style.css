@@ -15,7 +15,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   background-color: #1B1919;
   inline-size: 1200px;
@@ -101,7 +101,7 @@ ol {
   flex-direction: column;
   gap: 30px;
   overflow-y: auto;
-  height:298px; 
+  block-size:298px; 
 }
 
 .content__video-card {
@@ -201,7 +201,7 @@ ol {
   border-block-start-color: #fff; 
   border-block-end-color: #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px; 
   background-color: transparent;
   appearance: none;
@@ -258,7 +258,7 @@ ol {
 .button {
   border: 1px solid #fff; 
   color: #fff; 
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -276,7 +276,6 @@ ol {
 .more-button {
   flex-shrink: 0;
   inline-size: 100%; 
- 
 }
 
 .button:hover {
