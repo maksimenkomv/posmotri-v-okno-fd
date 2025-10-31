@@ -58,7 +58,6 @@ ol {
   display: flex; 
   align-items: flex-end;
   gap: 30px;
-  block-size: 534px; 
   inline-size: 1140px; 
 }
 
@@ -98,12 +97,11 @@ ol {
 }
 
 .content__list-container {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
   overflow-y: auto;
-  block-size: 534px; 
+  height:298px; 
 }
 
 .content__video-card {
